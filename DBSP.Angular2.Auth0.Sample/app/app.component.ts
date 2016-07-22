@@ -3,8 +3,6 @@ import { ROUTER_DIRECTIVES }  from '@angular/router';
 
 import { Auth }               from "./auth.service"
 
-declare var noobObject: any;
-
 @Component({
   selector: 'my-app',
   providers: [Auth],
