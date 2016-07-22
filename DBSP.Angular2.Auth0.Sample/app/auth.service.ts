@@ -13,6 +13,11 @@ export class Auth {
     // Add callback for lock `authenticated` event
     this.lock.on("authenticated", (authResult) => {
       localStorage.setItem('id_token', authResult.idToken);
+
+      console.log("------- The authResult object -------")
+      console.log(authResult);
+      console.log("------- The localStorage -------")
+      console.log(localStorage);
     });
   }
 

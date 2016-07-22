@@ -1,7 +1,7 @@
-import { Component } from '@angular/core';
+import { Component }          from '@angular/core';
 import { ROUTER_DIRECTIVES }  from '@angular/router';
 
-import { Auth } from "./auth.service"
+import { Auth }               from "./auth.service"
 
 @Component({
   selector: 'my-app',
@@ -12,5 +12,4 @@ import { Auth } from "./auth.service"
 export class AppComponent {
   constructor(private auth: Auth) {
   }
-
 }
