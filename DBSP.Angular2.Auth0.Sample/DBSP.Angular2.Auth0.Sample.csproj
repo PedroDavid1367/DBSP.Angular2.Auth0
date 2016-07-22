@@ -23,6 +23,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\app.template.html" />
+    <Content Include="app\login.template.html" />
     <Content Include="index.html" />
     <Content Include="node_modules\%40angular\common\bundles\common.umd.js" />
     <Content Include="node_modules\%40angular\common\bundles\common.umd.min.js" />
@@ -14343,6 +14344,11 @@
     <Content Include="node_modules\zone.js\LICENSE.wrapped" />
     <Content Include="node_modules\zone.js\package.json" />
     <Content Include="node_modules\zone.js\README.md" />
+    <Content Include="typings\globals\angular-protractor\typings.json" />
+    <Content Include="typings\globals\core-js\typings.json" />
+    <Content Include="typings\globals\jasmine\typings.json" />
+    <Content Include="typings\globals\node\typings.json" />
+    <Content Include="typings\globals\selenium-webdriver\typings.json" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
@@ -14355,6 +14361,7 @@
     <TypeScriptCompile Include="app\app.routes.ts" />
     <TypeScriptCompile Include="app\auth.service.ts" />
     <TypeScriptCompile Include="app\home.component.ts" />
+    <TypeScriptCompile Include="app\login.component.ts" />
     <TypeScriptCompile Include="app\main.ts" />
     <TypeScriptCompile Include="node_modules\%40angular\common\esm\index.d.ts" />
     <TypeScriptCompile Include="node_modules\%40angular\common\esm\src\common_directives.d.ts" />
@@ -16562,6 +16569,12 @@
     <TypeScriptCompile Include="node_modules\zone.js\lib\zone-spec\sync-test.ts" />
     <TypeScriptCompile Include="node_modules\zone.js\lib\zone-spec\wtf.ts" />
     <TypeScriptCompile Include="node_modules\zone.js\lib\zone.ts" />
+    <TypeScriptCompile Include="typings\globals\angular-protractor\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\core-js\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\jasmine\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\node\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\selenium-webdriver\index.d.ts" />
+    <TypeScriptCompile Include="typings\index.d.ts" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="node_modules\selenium-webdriver\lib\test\data\Page.aspx.cs">
